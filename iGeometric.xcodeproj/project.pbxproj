@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F1B6C5415E526A100725003 /* noSeleccionado.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5215E526A100725003 /* noSeleccionado.png */; };
+		7F1B6C5515E526A100725003 /* seleccionado.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5315E526A100725003 /* seleccionado.png */; };
+		7F1B6C5815E5283200725003 /* no.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5715E5283200725003 /* no.png */; };
+		7F1B6C6215E5329A00725003 /* 01no.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5A15E5329A00725003 /* 01no.png */; };
+		7F1B6C6315E5329A00725003 /* 01si.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5B15E5329A00725003 /* 01si.png */; };
+		7F1B6C6415E5329A00725003 /* 02no.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5C15E5329A00725003 /* 02no.png */; };
+		7F1B6C6515E5329A00725003 /* 02si.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5D15E5329A00725003 /* 02si.png */; };
+		7F1B6C6615E5329A00725003 /* 03no.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5E15E5329A00725003 /* 03no.png */; };
+		7F1B6C6715E5329A00725003 /* 03si.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C5F15E5329A00725003 /* 03si.png */; };
+		7F1B6C6815E5329A00725003 /* 04no.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C6015E5329A00725003 /* 04no.png */; };
+		7F1B6C6915E5329A00725003 /* 04si.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C6115E5329A00725003 /* 04si.png */; };
+		7F1B6C6B15E533EA00725003 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C6A15E533EA00725003 /* Default.png */; };
+		7F1B6C6E15E5342E00725003 /* infoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1B6C6D15E5342E00725003 /* infoViewController.m */; };
+		7F1B6C7415E5384600725003 /* logo01.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F1B6C7315E5384600725003 /* logo01.png */; };
+		7F48FF4015E43F20001A3837 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F48FF3F15E43F20001A3837 /* iAd.framework */; };
+		7F48FF4315E44199001A3837 /* NamesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F48FF4215E44199001A3837 /* NamesViewController.m */; };
+		7F48FF4515E444FB001A3837 /* celda01Gris.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F48FF4415E444FB001A3837 /* celda01Gris.png */; };
+		7FB30A511594E8FA0005E1E9 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB30A501594E8FA0005E1E9 /* UIKit.framework */; };
+		7FB30A531594E8FA0005E1E9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB30A521594E8FA0005E1E9 /* Foundation.framework */; };
+		7FB30A551594E8FA0005E1E9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FB30A541594E8FA0005E1E9 /* CoreGraphics.framework */; };
+		7FB30A5B1594E8FA0005E1E9 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7FB30A591594E8FA0005E1E9 /* InfoPlist.strings */; };
+		7FB30A5D1594E8FA0005E1E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB30A5C1594E8FA0005E1E9 /* main.m */; };
+		7FB30A611594E8FA0005E1E9 /* iGeometricAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB30A601594E8FA0005E1E9 /* iGeometricAppDelegate.m */; };
+		7FB30A641594E8FA0005E1E9 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FB30A621594E8FA0005E1E9 /* MainStoryboard.storyboard */; };
+		7FB30A671594E8FA0005E1E9 /* iGeometricViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB30A661594E8FA0005E1E9 /* iGeometricViewController.m */; };
+		7FB30A731594FE4C0005E1E9 /* Areas.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB30A721594FE4C0005E1E9 /* Areas.m */; };
+		7FCF63FA15960EDB00BA50E5 /* AreasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FCF63F915960EDB00BA50E5 /* AreasViewController.m */; };
+		7FEF6DD3159DF54500B5FE80 /* circle3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DCB159DF54500B5FE80 /* circle3d.png */; };
+		7FEF6DD4159DF54500B5FE80 /* cubo3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DCC159DF54500B5FE80 /* cubo3d.png */; };
+		7FEF6DD5159DF54500B5FE80 /* pentagono3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DCD159DF54500B5FE80 /* pentagono3d.png */; };
+		7FEF6DD6159DF54500B5FE80 /* rectangle3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DCE159DF54500B5FE80 /* rectangle3d.png */; };
+		7FEF6DD7159DF54500B5FE80 /* rombo3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DCF159DF54500B5FE80 /* rombo3d.png */; };
+		7FEF6DD8159DF54500B5FE80 /* romboide3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DD0159DF54500B5FE80 /* romboide3d.png */; };
+		7FEF6DD9159DF54500B5FE80 /* trapecio3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DD1159DF54500B5FE80 /* trapecio3d.png */; };
+		7FEF6DDA159DF54500B5FE80 /* triangle3d.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DD2159DF54500B5FE80 /* triangle3d.png */; };
+		7FEF6DDD159DF71900B5FE80 /* paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DDC159DF71900B5FE80 /* paper.png */; };
+		7FEF6DDF159DF86B00B5FE80 /* 2paper.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DDE159DF86B00B5FE80 /* 2paper.png */; };
+		7FEF6DE2159DF9ED00B5FE80 /* FiguresViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6DE1159DF9ED00B5FE80 /* FiguresViewController.m */; };
+		7FEF6DE9159E060200B5FE80 /* celdablack.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DE7159E060200B5FE80 /* celdablack.png */; };
+		7FEF6DEA159E060200B5FE80 /* celdagris.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DE8159E060200B5FE80 /* celdagris.png */; };
+		7FEF6DEC159E085E00B5FE80 /* circ.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DEB159E085E00B5FE80 /* circ.png */; };
+		7FEF6DEE159E091300B5FE80 /* trig.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DED159E091300B5FE80 /* trig.png */; };
+		7FEF6DF0159E09C400B5FE80 /* romb.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6DEF159E09C400B5FE80 /* romb.png */; };
+		7FEF6DF3159E0D9600B5FE80 /* shareTwViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6DF2159E0D9600B5FE80 /* shareTwViewController.m */; };
+		7FEF6DF9159E0E5B00B5FE80 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEF6DF8159E0E5B00B5FE80 /* Accounts.framework */; };
+		7FEF6DFB159E0E6100B5FE80 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7FEF6DFA159E0E6100B5FE80 /* Twitter.framework */; };
+		7FEF6E01159E118700B5FE80 /* fipade.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E00159E118700B5FE80 /* fipade.png */; };
+		7FEF6E03159E144500B5FE80 /* calcular.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E02159E144500B5FE80 /* calcular.png */; };
+		7FEF6E05159E19D200B5FE80 /* tweet.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E04159E19D200B5FE80 /* tweet.png */; };
+		7FEF6E07159E1A5A00B5FE80 /* nxt.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E06159E1A5A00B5FE80 /* nxt.png */; };
+		7FEF6E09159E1A9900B5FE80 /* arw.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E08159E1A9900B5FE80 /* arw.png */; };
+		7FEF6E0B159E1ADE00B5FE80 /* sg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E0A159E1ADE00B5FE80 /* sg.png */; };
+		7FEF6E12159E24DF00B5FE80 /* inicialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEF6E11159E24DF00B5FE80 /* inicialViewController.m */; };
+		7FEF6E18159E277300B5FE80 /* head.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E17159E277300B5FE80 /* head.png */; };
+		7FEF6E1A159E281F00B5FE80 /* celdabrown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E19159E281F00B5FE80 /* celdabrown.png */; };
+		7FEF6E1C159E292600B5FE80 /* brown.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E1B159E292600B5FE80 /* brown.png */; };
+		7FEF6E22159E32A000B5FE80 /* piezas.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E21159E32A000B5FE80 /* piezas.png */; };
+		7FEF6E26159E3E3F00B5FE80 /* geom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E23159E3E3F00B5FE80 /* geom.png */; };
+		7FEF6E27159E3E3F00B5FE80 /* inf.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E24159E3E3F00B5FE80 /* inf.png */; };
+		7FEF6E28159E3E3F00B5FE80 /* nombres.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E25159E3E3F00B5FE80 /* nombres.png */; };
+		7FEF6E2A159E4F2600B5FE80 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E29159E4F2600B5FE80 /* first.png */; };
+		7FEF6E2C159E4FA400B5FE80 /* names.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E2B159E4FA400B5FE80 /* names.png */; };
+		7FEF6E2E159E4FE100B5FE80 /* figures1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E2D159E4FE100B5FE80 /* figures1.png */; };
+		7FEF6E30159E505200B5FE80 /* ruler.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E2F159E505200B5FE80 /* ruler.png */; };
+		7FEF6E32159E507300B5FE80 /* equerre.png in Resources */ = {isa = PBXBuildFile; fileRef = 7FEF6E31159E507300B5FE80 /* equerre.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7F1B6C5215E526A100725003 /* noSeleccionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = noSeleccionado.png; sourceTree = "<group>"; };
+		7F1B6C5315E526A100725003 /* seleccionado.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seleccionado.png; sourceTree = "<group>"; };
+		7F1B6C5715E5283200725003 /* no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no.png; sourceTree = "<group>"; };
+		7F1B6C5A15E5329A00725003 /* 01no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01no.png; sourceTree = "<group>"; };
+		7F1B6C5B15E5329A00725003 /* 01si.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 01si.png; sourceTree = "<group>"; };
+		7F1B6C5C15E5329A00725003 /* 02no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02no.png; sourceTree = "<group>"; };
+		7F1B6C5D15E5329A00725003 /* 02si.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 02si.png; sourceTree = "<group>"; };
+		7F1B6C5E15E5329A00725003 /* 03no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03no.png; sourceTree = "<group>"; };
+		7F1B6C5F15E5329A00725003 /* 03si.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 03si.png; sourceTree = "<group>"; };
+		7F1B6C6015E5329A00725003 /* 04no.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04no.png; sourceTree = "<group>"; };
+		7F1B6C6115E5329A00725003 /* 04si.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 04si.png; sourceTree = "<group>"; };
+		7F1B6C6A15E533EA00725003 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7F1B6C6C15E5342E00725003 /* infoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = infoViewController.h; sourceTree = "<group>"; };
+		7F1B6C6D15E5342E00725003 /* infoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = infoViewController.m; sourceTree = "<group>"; };
+		7F1B6C7315E5384600725003 /* logo01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo01.png; sourceTree = "<group>"; };
+		7F48FF3F15E43F20001A3837 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		7F48FF4115E44199001A3837 /* NamesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NamesViewController.h; sourceTree = "<group>"; };
+		7F48FF4215E44199001A3837 /* NamesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NamesViewController.m; sourceTree = "<group>"; };
+		7F48FF4415E444FB001A3837 /* celda01Gris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celda01Gris.png; sourceTree = "<group>"; };
+		7FB30A4C1594E8FA0005E1E9 /* iGeometric.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGeometric.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FB30A501594E8FA0005E1E9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7FB30A521594E8FA0005E1E9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7FB30A541594E8FA0005E1E9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7FB30A581594E8FA0005E1E9 /* iGeometric-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iGeometric-Info.plist"; sourceTree = "<group>"; };
+		7FB30A5A1594E8FA0005E1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7FB30A5C1594E8FA0005E1E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7FB30A5E1594E8FA0005E1E9 /* iGeometric-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iGeometric-Prefix.pch"; sourceTree = "<group>"; };
+		7FB30A5F1594E8FA0005E1E9 /* iGeometricAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iGeometricAppDelegate.h; sourceTree = "<group>"; };
+		7FB30A601594E8FA0005E1E9 /* iGeometricAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGeometricAppDelegate.m; sourceTree = "<group>"; };
+		7FB30A631594E8FA0005E1E9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		7FB30A651594E8FA0005E1E9 /* iGeometricViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iGeometricViewController.h; sourceTree = "<group>"; };
+		7FB30A661594E8FA0005E1E9 /* iGeometricViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iGeometricViewController.m; sourceTree = "<group>"; };
+		7FB30A711594FE4C0005E1E9 /* Areas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Areas.h; sourceTree = "<group>"; };
+		7FB30A721594FE4C0005E1E9 /* Areas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Areas.m; sourceTree = "<group>"; };
+		7FCF63F815960EDB00BA50E5 /* AreasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreasViewController.h; sourceTree = "<group>"; };
+		7FCF63F915960EDB00BA50E5 /* AreasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreasViewController.m; sourceTree = "<group>"; };
+		7FEF6DCB159DF54500B5FE80 /* circle3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circle3d.png; sourceTree = "<group>"; };
+		7FEF6DCC159DF54500B5FE80 /* cubo3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cubo3d.png; sourceTree = "<group>"; };
+		7FEF6DCD159DF54500B5FE80 /* pentagono3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pentagono3d.png; sourceTree = "<group>"; };
+		7FEF6DCE159DF54500B5FE80 /* rectangle3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rectangle3d.png; sourceTree = "<group>"; };
+		7FEF6DCF159DF54500B5FE80 /* rombo3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rombo3d.png; sourceTree = "<group>"; };
+		7FEF6DD0159DF54500B5FE80 /* romboide3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = romboide3d.png; sourceTree = "<group>"; };
+		7FEF6DD1159DF54500B5FE80 /* trapecio3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trapecio3d.png; sourceTree = "<group>"; };
+		7FEF6DD2159DF54500B5FE80 /* triangle3d.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triangle3d.png; sourceTree = "<group>"; };
+		7FEF6DDC159DF71900B5FE80 /* paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paper.png; sourceTree = "<group>"; };
+		7FEF6DDE159DF86B00B5FE80 /* 2paper.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2paper.png; sourceTree = "<group>"; };
+		7FEF6DE0159DF9ED00B5FE80 /* FiguresViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiguresViewController.h; sourceTree = "<group>"; };
+		7FEF6DE1159DF9ED00B5FE80 /* FiguresViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiguresViewController.m; sourceTree = "<group>"; };
+		7FEF6DE7159E060200B5FE80 /* celdablack.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celdablack.png; sourceTree = "<group>"; };
+		7FEF6DE8159E060200B5FE80 /* celdagris.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celdagris.png; sourceTree = "<group>"; };
+		7FEF6DEB159E085E00B5FE80 /* circ.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = circ.png; sourceTree = "<group>"; };
+		7FEF6DED159E091300B5FE80 /* trig.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trig.png; sourceTree = "<group>"; };
+		7FEF6DEF159E09C400B5FE80 /* romb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = romb.png; sourceTree = "<group>"; };
+		7FEF6DF1159E0D9600B5FE80 /* shareTwViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = shareTwViewController.h; sourceTree = "<group>"; };
+		7FEF6DF2159E0D9600B5FE80 /* shareTwViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = shareTwViewController.m; sourceTree = "<group>"; };
+		7FEF6DF8159E0E5B00B5FE80 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		7FEF6DFA159E0E6100B5FE80 /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
+		7FEF6E00159E118700B5FE80 /* fipade.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fipade.png; sourceTree = "<group>"; };
+		7FEF6E02159E144500B5FE80 /* calcular.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = calcular.png; sourceTree = "<group>"; };
+		7FEF6E04159E19D200B5FE80 /* tweet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tweet.png; sourceTree = "<group>"; };
+		7FEF6E06159E1A5A00B5FE80 /* nxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nxt.png; sourceTree = "<group>"; };
+		7FEF6E08159E1A9900B5FE80 /* arw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arw.png; sourceTree = "<group>"; };
+		7FEF6E0A159E1ADE00B5FE80 /* sg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sg.png; sourceTree = "<group>"; };
+		7FEF6E10159E24DF00B5FE80 /* inicialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = inicialViewController.h; sourceTree = "<group>"; };
+		7FEF6E11159E24DF00B5FE80 /* inicialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = inicialViewController.m; sourceTree = "<group>"; };
+		7FEF6E17159E277300B5FE80 /* head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = head.png; sourceTree = "<group>"; };
+		7FEF6E19159E281F00B5FE80 /* celdabrown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = celdabrown.png; sourceTree = "<group>"; };
+		7FEF6E1B159E292600B5FE80 /* brown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = brown.png; sourceTree = "<group>"; };
+		7FEF6E21159E32A000B5FE80 /* piezas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = piezas.png; sourceTree = "<group>"; };
+		7FEF6E23159E3E3F00B5FE80 /* geom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = geom.png; sourceTree = "<group>"; };
+		7FEF6E24159E3E3F00B5FE80 /* inf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = inf.png; sourceTree = "<group>"; };
+		7FEF6E25159E3E3F00B5FE80 /* nombres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nombres.png; sourceTree = "<group>"; };
+		7FEF6E29159E4F2600B5FE80 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		7FEF6E2B159E4FA400B5FE80 /* names.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = names.png; sourceTree = "<group>"; };
+		7FEF6E2D159E4FE100B5FE80 /* figures1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = figures1.png; sourceTree = "<group>"; };
+		7FEF6E2F159E505200B5FE80 /* ruler.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ruler.png; sourceTree = "<group>"; };
+		7FEF6E31159E507300B5FE80 /* equerre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = equerre.png; sourceTree = "<group>"; };
+		7FEF6E33159E54C700B5FE80 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7FB30A491594E8FA0005E1E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F48FF4015E43F20001A3837 /* iAd.framework in Frameworks */,
+				7FEF6DFB159E0E6100B5FE80 /* Twitter.framework in Frameworks */,
+				7FEF6DF9159E0E5B00B5FE80 /* Accounts.framework in Frameworks */,
+				7FB30A511594E8FA0005E1E9 /* UIKit.framework in Frameworks */,
+				7FB30A531594E8FA0005E1E9 /* Foundation.framework in Frameworks */,
+				7FB30A551594E8FA0005E1E9 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1B6C5915E5329A00725003 /* tabBar */ = {
+			isa = PBXGroup;
+			children = (
+				7F1B6C5A15E5329A00725003 /* 01no.png */,
+				7F1B6C5B15E5329A00725003 /* 01si.png */,
+				7F1B6C5C15E5329A00725003 /* 02no.png */,
+				7F1B6C5D15E5329A00725003 /* 02si.png */,
+				7F1B6C5E15E5329A00725003 /* 03no.png */,
+				7F1B6C5F15E5329A00725003 /* 03si.png */,
+				7F1B6C6015E5329A00725003 /* 04no.png */,
+				7F1B6C6115E5329A00725003 /* 04si.png */,
+			);
+			path = tabBar;
+			sourceTree = "<group>";
+		};
+		7FB30A411594E8FA0005E1E9 = {
+			isa = PBXGroup;
+			children = (
+				7F1B6C7315E5384600725003 /* logo01.png */,
+				7F1B6C6C15E5342E00725003 /* infoViewController.h */,
+				7F1B6C6D15E5342E00725003 /* infoViewController.m */,
+				7F1B6C6A15E533EA00725003 /* Default.png */,
+				7F48FF4115E44199001A3837 /* NamesViewController.h */,
+				7F48FF4215E44199001A3837 /* NamesViewController.m */,
+				7F48FF3F15E43F20001A3837 /* iAd.framework */,
+				7FEF6E33159E54C700B5FE80 /* logo.png */,
+				7FEF6E10159E24DF00B5FE80 /* inicialViewController.h */,
+				7FEF6E11159E24DF00B5FE80 /* inicialViewController.m */,
+				7FEF6DFA159E0E6100B5FE80 /* Twitter.framework */,
+				7FEF6DF8159E0E5B00B5FE80 /* Accounts.framework */,
+				7FEF6DF1159E0D9600B5FE80 /* shareTwViewController.h */,
+				7FEF6DF2159E0D9600B5FE80 /* shareTwViewController.m */,
+				7FEF6DE0159DF9ED00B5FE80 /* FiguresViewController.h */,
+				7FEF6DE1159DF9ED00B5FE80 /* FiguresViewController.m */,
+				7FEF6DCA159DF54500B5FE80 /* img */,
+				7FCF63F815960EDB00BA50E5 /* AreasViewController.h */,
+				7FCF63F915960EDB00BA50E5 /* AreasViewController.m */,
+				7FB30A711594FE4C0005E1E9 /* Areas.h */,
+				7FB30A721594FE4C0005E1E9 /* Areas.m */,
+				7FB30A561594E8FA0005E1E9 /* iGeometric */,
+				7FB30A4F1594E8FA0005E1E9 /* Frameworks */,
+				7FB30A4D1594E8FA0005E1E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7FB30A4D1594E8FA0005E1E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7FB30A4C1594E8FA0005E1E9 /* iGeometric.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7FB30A4F1594E8FA0005E1E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7FB30A501594E8FA0005E1E9 /* UIKit.framework */,
+				7FB30A521594E8FA0005E1E9 /* Foundation.framework */,
+				7FB30A541594E8FA0005E1E9 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7FB30A561594E8FA0005E1E9 /* iGeometric */ = {
+			isa = PBXGroup;
+			children = (
+				7FB30A5F1594E8FA0005E1E9 /* iGeometricAppDelegate.h */,
+				7FB30A601594E8FA0005E1E9 /* iGeometricAppDelegate.m */,
+				7FB30A621594E8FA0005E1E9 /* MainStoryboard.storyboard */,
+				7FB30A651594E8FA0005E1E9 /* iGeometricViewController.h */,
+				7FB30A661594E8FA0005E1E9 /* iGeometricViewController.m */,
+				7FB30A571594E8FA0005E1E9 /* Supporting Files */,
+			);
+			path = iGeometric;
+			sourceTree = "<group>";
+		};
+		7FB30A571594E8FA0005E1E9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7FB30A581594E8FA0005E1E9 /* iGeometric-Info.plist */,
+				7FB30A591594E8FA0005E1E9 /* InfoPlist.strings */,
+				7FB30A5C1594E8FA0005E1E9 /* main.m */,
+				7FB30A5E1594E8FA0005E1E9 /* iGeometric-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7FEF6DCA159DF54500B5FE80 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				7F1B6C5915E5329A00725003 /* tabBar */,
+				7F1B6C5215E526A100725003 /* noSeleccionado.png */,
+				7F1B6C5315E526A100725003 /* seleccionado.png */,
+				7F48FF4415E444FB001A3837 /* celda01Gris.png */,
+				7FEF6E29159E4F2600B5FE80 /* first.png */,
+				7FEF6E21159E32A000B5FE80 /* piezas.png */,
+				7FEF6E17159E277300B5FE80 /* head.png */,
+				7FEF6DDC159DF71900B5FE80 /* paper.png */,
+				7FEF6E2F159E505200B5FE80 /* ruler.png */,
+				7FEF6DCB159DF54500B5FE80 /* circle3d.png */,
+				7FEF6DE7159E060200B5FE80 /* celdablack.png */,
+				7FEF6DE8159E060200B5FE80 /* celdagris.png */,
+				7FEF6DCC159DF54500B5FE80 /* cubo3d.png */,
+				7F1B6C5715E5283200725003 /* no.png */,
+				7FEF6E02159E144500B5FE80 /* calcular.png */,
+				7FEF6E31159E507300B5FE80 /* equerre.png */,
+				7FEF6E08159E1A9900B5FE80 /* arw.png */,
+				7FEF6E04159E19D200B5FE80 /* tweet.png */,
+				7FEF6DED159E091300B5FE80 /* trig.png */,
+				7FEF6E2D159E4FE100B5FE80 /* figures1.png */,
+				7FEF6E06159E1A5A00B5FE80 /* nxt.png */,
+				7FEF6E2B159E4FA400B5FE80 /* names.png */,
+				7FEF6DCD159DF54500B5FE80 /* pentagono3d.png */,
+				7FEF6E23159E3E3F00B5FE80 /* geom.png */,
+				7FEF6E24159E3E3F00B5FE80 /* inf.png */,
+				7FEF6E25159E3E3F00B5FE80 /* nombres.png */,
+				7FEF6E1B159E292600B5FE80 /* brown.png */,
+				7FEF6DCE159DF54500B5FE80 /* rectangle3d.png */,
+				7FEF6DEB159E085E00B5FE80 /* circ.png */,
+				7FEF6DCF159DF54500B5FE80 /* rombo3d.png */,
+				7FEF6DD0159DF54500B5FE80 /* romboide3d.png */,
+				7FEF6E19159E281F00B5FE80 /* celdabrown.png */,
+				7FEF6E00159E118700B5FE80 /* fipade.png */,
+				7FEF6DEF159E09C400B5FE80 /* romb.png */,
+				7FEF6DD1159DF54500B5FE80 /* trapecio3d.png */,
+				7FEF6DDE159DF86B00B5FE80 /* 2paper.png */,
+				7FEF6E0A159E1ADE00B5FE80 /* sg.png */,
+				7FEF6DD2159DF54500B5FE80 /* triangle3d.png */,
+			);
+			path = img;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7FB30A4B1594E8FA0005E1E9 /* iGeometric */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FB30A6A1594E8FA0005E1E9 /* Build configuration list for PBXNativeTarget "iGeometric" */;
+			buildPhases = (
+				7FB30A481594E8FA0005E1E9 /* Sources */,
+				7FB30A491594E8FA0005E1E9 /* Frameworks */,
+				7FB30A4A1594E8FA0005E1E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iGeometric;
+			productName = iGeometric;
+			productReference = 7FB30A4C1594E8FA0005E1E9 /* iGeometric.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7FB30A431594E8FA0005E1E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = iGeometric;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = ASTA;
+			};
+			buildConfigurationList = 7FB30A461594E8FA0005E1E9 /* Build configuration list for PBXProject "iGeometric" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7FB30A411594E8FA0005E1E9;
+			productRefGroup = 7FB30A4D1594E8FA0005E1E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7FB30A4B1594E8FA0005E1E9 /* iGeometric */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7FB30A4A1594E8FA0005E1E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB30A5B1594E8FA0005E1E9 /* InfoPlist.strings in Resources */,
+				7FB30A641594E8FA0005E1E9 /* MainStoryboard.storyboard in Resources */,
+				7FEF6DD3159DF54500B5FE80 /* circle3d.png in Resources */,
+				7FEF6DD4159DF54500B5FE80 /* cubo3d.png in Resources */,
+				7FEF6DD5159DF54500B5FE80 /* pentagono3d.png in Resources */,
+				7FEF6DD6159DF54500B5FE80 /* rectangle3d.png in Resources */,
+				7FEF6DD7159DF54500B5FE80 /* rombo3d.png in Resources */,
+				7FEF6DD8159DF54500B5FE80 /* romboide3d.png in Resources */,
+				7FEF6DD9159DF54500B5FE80 /* trapecio3d.png in Resources */,
+				7FEF6DDA159DF54500B5FE80 /* triangle3d.png in Resources */,
+				7FEF6DDD159DF71900B5FE80 /* paper.png in Resources */,
+				7FEF6DDF159DF86B00B5FE80 /* 2paper.png in Resources */,
+				7FEF6DE9159E060200B5FE80 /* celdablack.png in Resources */,
+				7FEF6DEA159E060200B5FE80 /* celdagris.png in Resources */,
+				7FEF6DEC159E085E00B5FE80 /* circ.png in Resources */,
+				7FEF6DEE159E091300B5FE80 /* trig.png in Resources */,
+				7FEF6DF0159E09C400B5FE80 /* romb.png in Resources */,
+				7FEF6E01159E118700B5FE80 /* fipade.png in Resources */,
+				7FEF6E03159E144500B5FE80 /* calcular.png in Resources */,
+				7FEF6E05159E19D200B5FE80 /* tweet.png in Resources */,
+				7FEF6E07159E1A5A00B5FE80 /* nxt.png in Resources */,
+				7FEF6E09159E1A9900B5FE80 /* arw.png in Resources */,
+				7FEF6E0B159E1ADE00B5FE80 /* sg.png in Resources */,
+				7FEF6E18159E277300B5FE80 /* head.png in Resources */,
+				7FEF6E1A159E281F00B5FE80 /* celdabrown.png in Resources */,
+				7FEF6E1C159E292600B5FE80 /* brown.png in Resources */,
+				7FEF6E22159E32A000B5FE80 /* piezas.png in Resources */,
+				7FEF6E26159E3E3F00B5FE80 /* geom.png in Resources */,
+				7FEF6E27159E3E3F00B5FE80 /* inf.png in Resources */,
+				7FEF6E28159E3E3F00B5FE80 /* nombres.png in Resources */,
+				7FEF6E2A159E4F2600B5FE80 /* first.png in Resources */,
+				7FEF6E2C159E4FA400B5FE80 /* names.png in Resources */,
+				7FEF6E2E159E4FE100B5FE80 /* figures1.png in Resources */,
+				7FEF6E30159E505200B5FE80 /* ruler.png in Resources */,
+				7FEF6E32159E507300B5FE80 /* equerre.png in Resources */,
+				7F48FF4515E444FB001A3837 /* celda01Gris.png in Resources */,
+				7F1B6C5415E526A100725003 /* noSeleccionado.png in Resources */,
+				7F1B6C5515E526A100725003 /* seleccionado.png in Resources */,
+				7F1B6C5815E5283200725003 /* no.png in Resources */,
+				7F1B6C6215E5329A00725003 /* 01no.png in Resources */,
+				7F1B6C6315E5329A00725003 /* 01si.png in Resources */,
+				7F1B6C6415E5329A00725003 /* 02no.png in Resources */,
+				7F1B6C6515E5329A00725003 /* 02si.png in Resources */,
+				7F1B6C6615E5329A00725003 /* 03no.png in Resources */,
+				7F1B6C6715E5329A00725003 /* 03si.png in Resources */,
+				7F1B6C6815E5329A00725003 /* 04no.png in Resources */,
+				7F1B6C6915E5329A00725003 /* 04si.png in Resources */,
+				7F1B6C6B15E533EA00725003 /* Default.png in Resources */,
+				7F1B6C7415E5384600725003 /* logo01.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7FB30A481594E8FA0005E1E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FB30A5D1594E8FA0005E1E9 /* main.m in Sources */,
+				7FB30A611594E8FA0005E1E9 /* iGeometricAppDelegate.m in Sources */,
+				7FB30A671594E8FA0005E1E9 /* iGeometricViewController.m in Sources */,
+				7FB30A731594FE4C0005E1E9 /* Areas.m in Sources */,
+				7FCF63FA15960EDB00BA50E5 /* AreasViewController.m in Sources */,
+				7FEF6DE2159DF9ED00B5FE80 /* FiguresViewController.m in Sources */,
+				7FEF6DF3159E0D9600B5FE80 /* shareTwViewController.m in Sources */,
+				7FEF6E12159E24DF00B5FE80 /* inicialViewController.m in Sources */,
+				7F48FF4315E44199001A3837 /* NamesViewController.m in Sources */,
+				7F1B6C6E15E5342E00725003 /* infoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7FB30A591594E8FA0005E1E9 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB30A5A1594E8FA0005E1E9 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7FB30A621594E8FA0005E1E9 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7FB30A631594E8FA0005E1E9 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7FB30A681594E8FA0005E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7FB30A691594E8FA0005E1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7FB30A6B1594E8FA0005E1E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGeometric/iGeometric-Prefix.pch";
+				INFOPLIST_FILE = "iGeometric/iGeometric-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7FB30A6C1594E8FA0005E1E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGeometric/iGeometric-Prefix.pch";
+				INFOPLIST_FILE = "iGeometric/iGeometric-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		7FEF6E35159E5A9100B5FE80 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Distribution;
+		};
+		7FEF6E36159E5A9100B5FE80 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Fundacion Interdisciplinaria para el Desarrollo Empresarial S. de R.L. de C.V.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iGeometric/iGeometric-Prefix.pch";
+				INFOPLIST_FILE = "iGeometric/iGeometric-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9586FFEB-5392-496E-A3BF-75D33D7FEE6C";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Distribution;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7FB30A461594E8FA0005E1E9 /* Build configuration list for PBXProject "iGeometric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB30A681594E8FA0005E1E9 /* Debug */,
+				7FEF6E35159E5A9100B5FE80 /* Distribution */,
+				7FB30A691594E8FA0005E1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FB30A6A1594E8FA0005E1E9 /* Build configuration list for PBXNativeTarget "iGeometric" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7FB30A6B1594E8FA0005E1E9 /* Debug */,
+				7FEF6E36159E5A9100B5FE80 /* Distribution */,
+				7FB30A6C1594E8FA0005E1E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7FB30A431594E8FA0005E1E9 /* Project object */;
+}
